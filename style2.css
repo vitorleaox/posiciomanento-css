@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+    position: relative;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+}
+
+.box-1{
+    left: 0;
+    bottom: 0;
+}
+
+.box-2{
+    right: 0;
+    bottom: 0;    
+}
+
+.box-3{
+    right: 0;
+    top: 0;    
+}
+
+.box-4{
+    left: 0;
+    top: 0;    
+}
